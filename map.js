@@ -25,8 +25,8 @@
       scale: 80000000,
       legendSrc: "population.svg",
       layers: {
-        show: ["reactor_buffer_updated_3_small scale", "update_3__web_WTL1"],
-        hide: ["active_reactors_5", "convention_borders_3", "Conventions", "buffers for population count"]
+         show: ["reactor_buffer_updated_3_small scale", "update_3__web_WTL1", "convention_borders_3"],
+         hide: ["active_reactors_5", "Conventions", "buffers for population count"]
       }
     }
   };

@@ -72,6 +72,7 @@ arcgis-embedded-map {
   flex-direction: column;
   height: 100%;
   box-sizing: border-box;
+  padding: 0.35rem 2.4rem 1rem !important;
 }
 
 /* Center body content between the title band and the bottom */
@@ -91,9 +92,10 @@ arcgis-embedded-map {
   font-weight: 700;
   text-align: left;
   padding: 0.55em 1.2em;
-  margin: -0.5em -1.8em 0.8em;
+  margin: 0 0 0.9em;
   letter-spacing: 0.01em;
   line-height: 1.3;
+  border-radius: 4px;
 }
 
 .reveal h3 {
@@ -304,8 +306,8 @@ table.data-table .red-val {
 .slide-footer {
   position: absolute;
   bottom: 1.2em;
-  left: 1.8em;
-  right: 1.8em;
+  left: 2.6em;
+  right: 2.6em;
   font-size: 0.78rem;
   color: #94a3b8;
   border-top: 1px solid #e2e8f0;

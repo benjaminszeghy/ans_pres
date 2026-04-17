@@ -127,26 +127,11 @@ Table 3: Selected litigation arising from the 2011 Fukushima Dai-ichi accident. 
 ## Key Findings
 
 <div class="findings-grid">
-  <div class="finding-row">
-    <span class="finding-stat">71,000 km</span>
-    <span class="finding-desc">of international borders (56%) have no nuclear liability reciprocity</span>
-  </div>
-  <div class="finding-row">
-    <span class="finding-stat">1.9 million</span>
-    <span class="finding-desc">people live within 80 km of a reactor that crosses a non-reciprocal border</span>
-  </div>
-  <div class="finding-row">
-    <span class="finding-stat">26 reactors</span>
-    <span class="finding-desc">currently have 80 km radii overlapping borders with no reciprocity</span>
-  </div>
-  <div class="finding-row">
-    <span class="finding-stat">China, S. Korea, Taiwan, Iran, Pakistan</span>
-    <span class="finding-desc">— all non-party to any convention; most of East/South Asia in a legal void</span>
-  </div>
-  <div class="finding-row">
-    <span class="finding-stat">Fukushima ($200B+)</span>
-    <span class="finding-desc">dwarfed max insured amounts ($17B at best, &lt;$2B in most regimes)</span>
-  </div>
+<div class="finding-row"><span class="finding-stat">71,000 km</span><span class="finding-desc">of international borders (56%) have no nuclear liability reciprocity</span></div>
+<div class="finding-row"><span class="finding-stat">1.9 million</span><span class="finding-desc">people live within 80 km of a reactor that crosses a non-reciprocal border</span></div>
+<div class="finding-row"><span class="finding-stat">26 reactors</span><span class="finding-desc">currently have 80 km radii overlapping borders with no reciprocity</span></div>
+<div class="finding-row"><span class="finding-stat">China, S. Korea, Taiwan, Iran, Pakistan</span><span class="finding-desc">— all non-party to any convention; most of East/South Asia in a legal void</span></div>
+<div class="finding-row"><span class="finding-stat">Fukushima ($200B+)</span><span class="finding-desc">dwarfed max insured amounts ($17B at best, &lt;$2B in most regimes)</span></div>
 </div>
 
 ## Takeaways
@@ -162,5 +147,5 @@ Table 3: Selected litigation arising from the 2011 Fukushima Dai-ichi accident. 
 ::: {.slide-footer}
 *Work in progress — feedback welcome*
 
-Benjamin O. Szeghy · bszeghy@berkeley.edu · Geography Dept., UC Berkeley
+Benjamin O. Szeghy · benjamin.szeghy@berkeley.edu · Geography Dept., UC Berkeley
 :::

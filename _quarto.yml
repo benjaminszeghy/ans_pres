@@ -5,7 +5,7 @@ format:
     slide-number: c/t
     width: 1280
     height: 720
-    margin: 0.04
+    margin: 0.08
     transition: fade
     background-transition: fade
     controls: true

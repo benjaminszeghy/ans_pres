@@ -78,9 +78,12 @@ arcgis-embedded-map {
 /* Center body content between the title band and the bottom */
 .reveal .slides section > h2 + * {
   margin-top: auto !important;
+  margin-bottom: auto !important;
 }
 
-.reveal .slides section > *:last-child {
+/* When a slide-footer is present it's the DOM :last-child (position:absolute,
+   out of flex flow), so override: give bottom margin to the content element */
+.reveal .slides section:has(.slide-footer) > h2 + * {
   margin-bottom: auto !important;
 }
 

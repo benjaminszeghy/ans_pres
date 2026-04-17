@@ -20,25 +20,35 @@ format:
 ## Context & My Contribution
 
 ::: {.columns}
-::: {.column width="47%"}
-**Paper thesis**
+::: {.column width="54%"}
+*The Problem*
 
-- Nuclear liability law is fragmented globally — no reciprocity across 71,000 km (56%) of international borders.
-- New reactor types, new markets, and new business models require updated liability frameworks.
-- Global uniformity and cross-border reciprocity are necessary for investment and victim protection.
+- Countries operate under incompatible liability regimes, creating variance in domestic law among countries and uncertainty in compensation of nuclear damage
+- Mature nuclear economies including China and South Korea are still not party to any nuclear liability conventions, and reciprocity gaps persist even among neighbors
+- Without global uniformity, supply chain development faces legal and financial risks that will shape innovation and investment.
+
+*Our Approach*
+
+- Cross-disciplinary analysis combining nuclear law and geospatial science to quantify where legal gaps exist and how many people are exposed
+
+*Proposed Policy Outcome*
+
+- Local and international legal frameworks must seek global uniformity and cross-border reciprocity
+- Liability frameworks can evolve toward or away from channeling, so long as these two conditions are met
+- The process is not a priori costly, but slow: reciprocity must be resolved before plants obtain their license to operate
 :::
 
 ::: {.column width="6%"}
 :::
 
-::: {.column width="47%"}
-**My contributions**
+::: {.column width="40%"}
+*My Contributions*
 
-- Classified all countries by nuclear liability convention membership
-- Computed reciprocity status for every international border segment
-- 80 km buffer analysis around all 419 reactor locations
-- Population overlay to quantify people in legal gaps
-- Produced Figures 2 & 3 (maps) for publication
+- Classified every country by nuclear liability convention membership and computed reciprocity status across all international borders
+- Designed and executed the 80 km ingestion-pathway buffer analysis around all 419 active reactor locations worldwide
+- Overlaid NASA GPWv4 gridded population data to quantify the number of people living within legal coverage gaps
+- Identified and characterized specific high-risk border segments by reactor proximity and population exposure
+- Produced Figures 2 and 3 for publication: global maps of convention membership, border-by-border reciprocity, reactor locations, and population density
 :::
 :::
 
@@ -166,13 +176,15 @@ Table 3: Selected litigation arising from the 2011 Fukushima Dai-ichi accident. 
 
 ## Takeaways
 
-1. The geospatial framework — buffering all 419 reactors, computing border-by-border reciprocity, and overlaying population — provides a scalable, repeatable method to monitor the global liability gap.
+1. The geospatial framework, buffering all 419 reactor sites and computing border-by-border reciprocity with population overlays, provides a scalable and repeatable method to identify where legal gaps exist and who is most exposed. As new fission reactor designs and fusion systems are deployed globally, this spatial framework can be reapplied to track evolving legal exposure in near-real-time.
 
-2. 56% of global borders are unprotected. The maps show specifically where, and which bilateral gaps are highest priority given reactor proximity and population exposure.
+2. 71,000 km (56%) of global borders have no nuclear liability reciprocity; 1.9 million people live within 80 km of a reactor crossing one of those borders with no guaranteed legal avenue for compensation.
 
-3. Establishing reciprocity is slow (national law, bilateral agreements, convention ratification) but not expensive. The data can help focus diplomatic effort.
+3. The government is insurer of last resort in all regimes, yet Fukushima's damages exceeded $200B, dwarfing the $17B maximum insured under even the best available convention framework.
 
-4. As new reactor types (SMRs, fusion) are deployed globally, this spatial framework can be re-run in near-real-time to track evolving exposure.
+4. Liability frameworks can evolve toward or away from channeling; Alternatives are workable, but require new institutional and insurance infrastructure.
+
+5. Establishing global uniformity is not a priori costly, but a slow process" — countries importing, exporting, or operating new plants bear responsibility for resolving reciprocity before plants obtain their license to operate.
 
 ::: {.slide-footer}
 *Work in progress — feedback welcome*

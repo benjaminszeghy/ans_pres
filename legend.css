@@ -322,6 +322,58 @@ table.data-table .red-val {
   line-height: 1.4;
 }
 
+/* ── Title slide logos via pseudo-elements (flanking the author line) */
+.reveal #title-slide::before,
+.reveal #title-slide::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 54px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  pointer-events: none;
+}
+
+.reveal #title-slide::before {
+  left: 1.8em;
+  width: 270px;
+  background-image: url('2025-08-19 SALT Logo.png');
+}
+
+.reveal #title-slide::after {
+  right: 1.8em;
+  width: 96px;
+  background-image: url('logo-variations-thumbnail-gold-blue-1-1536x984.webp');
+}
+
+/* ── Last-slide logos (below text, pinned to opposite edges) ──────── */
+.slide-logos {
+  position: relative;
+  height: 68px;
+  margin-top: 0.8em;
+  flex-shrink: 0;
+}
+
+.slide-logos img:first-child {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 68px;
+  object-fit: contain;
+}
+
+.slide-logos img:last-child {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 68px;
+  object-fit: contain;
+}
+
 /* ── Takeaways slide footer ───────────────────────────────────────── */
 .slide-footer {
   position: absolute;

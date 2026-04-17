@@ -218,6 +218,11 @@ Table 3: Selected litigation arising from the 2011 Fukushima Dai-ichi accident. 
 
 5. Establishing global uniformity is not a priori costly, but a slow process" — countries importing, exporting, or operating new plants bear responsibility for resolving reciprocity before plants obtain their license to operate.
 
+<div class="slide-logos">
+<img src="2025-08-19 SALT Logo.png" alt="SALT Research Group">
+<img src="logo-variations-thumbnail-gold-blue-1-1536x984.webp" alt="UC Berkeley">
+</div>
+
 ::: {.slide-refs}
 <sup>51</sup> Collins et al. (1978). Planning basis for radiological emergency response plans. US NRC NUREG-0396. · <sup>52</sup> 10 CFR § 50.47 Emergency plans. US NRC.
 :::

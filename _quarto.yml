@@ -11,9 +11,3 @@ format:
     controls: true
     progress: true
     hash: true
-    include-in-header:
-      - text: |
-          <script type="module" src="https://js.arcgis.com/5.0/embeddable-components/"></script>
-    include-after-body:
-      - text: |
-          <script src="map.js"></script>

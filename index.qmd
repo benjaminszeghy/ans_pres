@@ -2,7 +2,20 @@
 title: "The 71,000-Kilometer Gap: How Nuclear Liability Shapes Global Nuclear Energy and Its Supply Chain Development"
 author: "Benjamin O. Szeghy · Geography Department, UC Berkeley"
 date: "*Based on: Evolving from Liability Channeling for Nuclear Energy Technology* · Saxena, Szeghy, Ng, Scarlat · 2026"
+format:
+  revealjs:
+    center: false
+    css: legend.css
+    include-in-header: _head.html
+    include-after-body: _body.html
 ---
+
+## Background
+
+- Nuclear liability is unique: accidents are extraordinarily rare but potentially massive in scale, trans-boundary, and long-lived. Standard tort law is inadequate for swift victim compensation
+- Nuclear energy is expanding into new countries and applications, extending to emerging economies in Southeast Asia and sub-Saharan Africa and even novel uses like maritime power and AI infrastructure
+- Liability channeling concentrates all accident liability on the reactor operator, shielding suppliers, designers, and manufacturers from direct legal claims. It's a framework designed in the 1950s for a nascent, nationally-contained industry
+- As the industry globalizes, the adequacy of liability channeling is being questioned: do decades-old legal tools still serve a rapidly evolving, multi-country supply chain?
 
 ## Context & My Contribution
 
@@ -44,13 +57,13 @@ Figure 1: Nuclear liability amounts under different liability regimes vs. actual
 ## Comparison of International Nuclear Liability Conventions
 
 | Convention | Year | Region / Scope | Liability Limit | Key Feature |
-|:--|:--|:--|:--|:--|
-| **Paris Convention** | 1960 | Western Europe | ~USD 21M (orig.) | Legal channeling to operator |
-| **Vienna Convention** | 1963 | Eastern Europe | ~USD 5M (orig.) | Strict & exclusive operator liability |
-| **Joint Protocol** | 1988 | Paris + Vienna parties | N/A (bridge) | Bridges Paris + Vienna reciprocity |
-| **Brussels Supp.** | 1963 | Paris Conv. states | ~EUR 1.5B (revised) | Multi-tier supplementary fund |
-| **CSC** | 1997 | Intended global | ~USD 600M+ | Supplementary fund from all parties |
-| **US Price-Anderson** | 1957 | United States | ~USD 17B (total) | Two-tier: private insurance + pool |
+|:------------|:-|:-----------|:------------|:-------------------------------|
+| **Paris Convention** | 1960 | Western Europe | ~USD 21M (orig.) | Legal channeling to operator; suppliers shielded from direct claims by statute |
+| **Vienna Convention** | 1963 | Eastern Europe | ~USD 5M (orig.) | Strict & exclusive operator liability; victim need not prove fault or identify responsible party |
+| **Joint Protocol** | 1988 | Paris + Vienna parties | N/A (bridge) | Bridges Paris & Vienna signatories, creating reciprocity for transboundary claims between the two regimes |
+| **Brussels Supp.** | 1963 | Paris Conv. states | ~EUR 1.5B (revised) | Adds a multi-tier supplementary compensation fund beyond the operator's primary coverage for Paris Convention states |
+| **Convention on Supplementary Compensation** | 1997 | Intended global | ~USD 600M+ | Intended as a global unifying regime; establishes an international fund pooled from contributions of all contracting states |
+| **US Price-Anderson** | 1957 | United States | ~USD 17B (total) | Two-tier system: $500M primary private insurance per site + ~$16B secondary pool funded collectively by all 94 licensed US reactor operators |
 
 ::: {.data-sources}
 Data sources: Paris Convention (1960) · Vienna Convention (1963) · Joint Protocol (1988) · CSC (1997) · US Price-Anderson Act (1957)
@@ -68,27 +81,7 @@ Reciprocity is determined by whether neighboring countries are party to compatib
 
 ## Figure 2 · Liability Conventions, Reciprocity & Reactor Locations {.has-map data-slide-key="fig2"}
 
-::: {.slide-left}
-**Convention membership, by country**
-
-- **Solid lines** — borders with no reciprocity
-- **Dashed lines** — borders with reciprocity
-- **Circles** — reactor 50-mile (80 km) buffer radius
-
-*Maps by Szeghy & Ng*
-:::
-
 ## Figure 3 · Transboundary Reciprocity, Reactor Locations & Population Density {.has-map data-slide-key="fig3"}
-
-::: {.slide-left}
-**Population exposure to non-reciprocal borders**
-
-- **Darker blue** — higher population density
-- **Circles** — reactor 50-mile (80 km) buffer
-- Border lines indicate reciprocity classification
-
-*Maps by Szeghy & Ng*
-:::
 
 ## Table 1 · Border Areas & Populations Affected by Reciprocity
 

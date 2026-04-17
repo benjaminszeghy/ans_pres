@@ -1,7 +1,7 @@
 ---
 title: "The 71,000-Kilometer Gap: How Nuclear Liability Shapes Global Nuclear Energy and Its Supply Chain Development"
-author: "Benjamin O. Szeghy · Geography Department, UC Berkeley"
-date: "*Based on: Evolving from Liability Channeling for Nuclear Energy Technology* · Saxena, Szeghy, Ng, Scarlat · 2026"
+author: "Benjamin O. Szeghy"
+subtitle: "Based on: Evolving from Liability Channeling for Nuclear Energy Technology · Dr. Ayshwarya Saxena¹, Benjamin Szeghy², Charmi Ng², Prof. Raluca Scarlat¹ (2026)"
 format:
   revealjs:
     center: false
@@ -32,7 +32,7 @@ format:
 :::
 
 ::: {.column width="47%"}
-**My contributions (Geography Dept.)**
+**My contributions**
 
 - Classified all countries by nuclear liability convention membership
 - Computed reciprocity status for every international border segment
@@ -42,16 +42,12 @@ format:
 :::
 :::
 
-::: {.data-sources}
-Data sources: IAEA PRIS · NEA/IAEA Nuclear Law Handbook · Natural Earth · GPW population grid · UN Treaty Collection
-:::
-
 ## Figure 1 · Nuclear Liability Amounts by Regime
 
 ![](fig1.jpg){width="85%"}
 
 ::: {.figure-caption}
-Figure 1: Nuclear liability amounts under different liability regimes vs. actual damages from Three Mile Island (1979) and Fukushima (2011). Government is insurer of last resort in all cases.
+Nuclear liability amounts under different liability regimes vs. actual damages from Three Mile Island (1979) and Fukushima (2011). Government is insurer of last resort in all cases.
 :::
 
 ## Comparison of International Nuclear Liability Conventions
@@ -71,12 +67,46 @@ Data sources: Paris Convention (1960) · Vienna Convention (1963) · Joint Proto
 
 ## Reciprocity Scenarios — How Border Classification Works
 
-<div class="placeholder-note">
-  <strong>Image needed:</strong> Export <code>fig_scenarios.png</code> from page 5 of the PDF and save it alongside <code>index.qmd</code>, then replace this block with <code>![](fig_scenarios.png){width="90%"}</code>
-</div>
+![](scenarios.jpg){width="90%"}
 
 ::: {.figure-caption}
 Reciprocity is determined by whether neighboring countries are party to compatible nuclear liability conventions. The 80 km reactor buffer is the NRC ingestion-pathway radius.
+:::
+
+## Methods
+
+::: {.columns}
+::: {.column width="32%"}
+**Data Sources**
+
+- Reactor locations & operational status: IAEA Power Reactor Information System (PRIS), as of end of 2024; geographical coordinates obtained via GeoHack
+- Convention membership: OECD NEA and IAEA Office of Legal Affairs — countries that "ratified, acceded, accepted, or approved" the VC, PC, JP, BSC, and CSC
+- Country borders & boundaries: Esri World Countries (Data and Maps)
+- Population: NASA Gridded Population of the World v4 rev11 (GPWv4)
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="32%"}
+**Analysis**
+
+- ArcGIS Pro v3.40 used to generate all maps; projections: Times (global) and a customized Albers centered on continental Europe
+- Border-by-border reciprocity computed from convention membership to identify types of conventions and reciprocity across borders
+- 80 km (50 mi) buffer radius around all reactor sites — the US NRC-recommended Ingestion Exposure Pathway Emergency Planning Zone for light water reactors
+- Population overlay applied within buffers and within 80 km of all international borders
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="32%"}
+**Caveats**
+
+- The 80 km EPZ can be smaller depending on reactor-design-specific radiologic source term
+- Economic damages can extend well beyond the local vicinity of plants (e.g. South Korean fishing industry post-Fukushima, Italian and UK farmers post-Chernobyl)
+- Population counts near multiple borders may double-count individuals
+:::
 :::
 
 ## Figure 2 · Liability Conventions, Reciprocity & Reactor Locations {.has-map data-slide-key="fig2"}

@@ -1,1 +1,13 @@
 <script src="map.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var titleSlide = document.getElementById('title-slide');
+  if (titleSlide) {
+    var footer = document.createElement('div');
+    footer.className = 'slide-footer';
+    footer.innerHTML =
+      '<sup>1</sup>Nuclear Engineering Dept. &nbsp;&middot;&nbsp; <sup>2</sup>Geography Dept. &nbsp;&middot;&nbsp; University of California, Berkeley';
+    titleSlide.appendChild(footer);
+  }
+});
+</script>

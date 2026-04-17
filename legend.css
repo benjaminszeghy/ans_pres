@@ -245,6 +245,23 @@ table.data-table .red-val {
   padding-top: 0.4em;
 }
 
+/* ── Per-slide reference footer ───────────────────────────────────── */
+.slide-refs {
+  font-size: 0.52rem;
+  color: #94a3b8;
+  margin-top: 0.6em;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 0.35em;
+  line-height: 1.55;
+}
+
+.slide-refs p {
+  font-size: 0.52rem;
+  color: #94a3b8;
+  margin: 0;
+  line-height: 1.55;
+}
+
 /* ── Figure captions ──────────────────────────────────────────────── */
 .figure-caption {
   font-size: 0.78rem;

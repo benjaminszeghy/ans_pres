@@ -1,0 +1,19 @@
+format:
+  revealjs:
+    theme: simple
+    css: legend.css
+    slide-number: c/t
+    width: 1280
+    height: 720
+    margin: 0.04
+    transition: fade
+    background-transition: fade
+    controls: true
+    progress: true
+    hash: true
+    include-in-header:
+      - text: |
+          <script type="module" src="https://js.arcgis.com/5.0/embeddable-components/"></script>
+    include-after-body:
+      - text: |
+          <script src="map.js"></script>
